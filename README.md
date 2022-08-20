@@ -56,12 +56,10 @@ See the pre-requisites for installing docker on your machine depending about you
 ```
 >> docker-compose up -d
 ```
-- If everything starts correctly you will find 4 containers:
+- If everything starts correctly you will find 2 containers:
   * Zookeeper
   * Kafka Cluster:
-    + Kafka Broker 1
-    + Kafka Broker 2
-    + Kafka Broker 3
+    + Kafka Broker
 
 ### VirtualBox
 See the pre-requisites for installing VirtualBox on your machine depending about your OS System, then:
