@@ -4,6 +4,7 @@
   "description": "Start to document this project...",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently --kill-others \"node ./functions/producer.js\" \"node ./functions/consumer.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,8 @@
   "dependencies": {
     "ip": "^1.1.8",
     "kafkajs": "^2.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0"
   }
 }
